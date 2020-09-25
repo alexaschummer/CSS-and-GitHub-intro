@@ -1,0 +1,94 @@
+/*  ADD your styles below --- WHERE INDICATED ---
+    Keep all the comments I have provided.
+    Where I have commented "keep," DO NOT touch that line!
+    */
+
+    /* --- ADD YOUR STYLES BELOW --- */
+    /* Color Theme Swatches in Hex */
+/*
+Color 1: The background color of both header and footer: #7CC7D6 (light blue)
+Color 2: The background color of article: #F2E2CE (cream)
+Color 3: The background color of both aside and body: #78BFB8 (blue)
+Color 4: The background color of figure: #F2F2F2 (white)
+*/
+
+
+body {
+    background: #F2E2CE; /* must change */
+    color: #000; /* may be #000 or #fff */
+    font-family: Calibri, Arial, sans-serif; /* keep */
+}
+
+article {
+    width: 800px; /* keep */
+    padding: 20px; /* keep */
+    margin: auto; /* keep */
+    background: #78BFB8;
+}
+
+header, footer {
+    background: #7CC7D6;
+}
+
+aside {
+    background: #F2E2CE;
+}
+
+figure {
+    background: #FFFFFF;
+}
+
+/* --- add your PSEUDO CLASSES below this line --- */
+/*
+  dark blue: #153B59
+  peach #E78482
+  taupe: #C7B3AF
+  lilac: #A68CBF
+  brown: #735D3D
+*/
+
+a:link {
+  color: #153B59;
+}
+
+a:visited {
+  color: #735D3D;
+}
+
+a:focus {
+  color: #C7B3AF;
+  background: #735D3D;
+}
+
+a:hover {
+  color: #C7B3AF;
+  background: #153B59;
+}
+
+a:active {
+  color: #A68CBF;
+  background: #735D3D;
+}
+
+footer a:link {
+  color: #153B59;
+}
+
+footer a:visited {
+  color: #735D3D;
+}
+
+footer a:focus {
+  color: #C7B3AF;
+  background: #735D3D;
+}
+
+footer a:hover {
+  color: #C7B3AF;
+  background: #153B59;
+}
+
+footer a:active {
+  color: #A68CBF;
+  background: #735D3D;
+}
